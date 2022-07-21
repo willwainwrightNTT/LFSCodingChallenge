@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  lfs_script:
+    build: .
+    volumes:
+      - ./data:/output/data/
